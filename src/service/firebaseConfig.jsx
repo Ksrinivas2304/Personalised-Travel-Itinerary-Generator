@@ -4,7 +4,7 @@ import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCbdDnXCCUAvQc_Chn-4PhhqG1qk6NVUIs",
+  apiKey: import.meta.env.VITE_GOOGLE_FIREBASE_API_KEY,
   authDomain: "ai-planner-7b25a.firebaseapp.com",
   projectId: "ai-planner-7b25a",
   storageBucket: "ai-planner-7b25a.appspot.com",
